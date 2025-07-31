@@ -11,25 +11,33 @@
 <body>
 
   <nav id="navigation" class="navbar navbar-expand-lg bg-dark px-4">
-    <div class="container">
-      <div class="d-flex align-items-center">
+  <div class="container">
+    <div class="d-flex align-items-center">
       <i class="fa-solid fa-cloud-sun-rain icon text-info px-2"></i>
-        <div class="text-white">
-          <strong> Weather</strong><br />
-          <small> tagline goes here</small>
-        </div>
-      </div>
-      <div class="ms-auto">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Live cameras</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Photos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-        </ul>
+      <div class="text-white">
+        <strong> Weather</strong><br />
+        <small> tagline goes here</small>
       </div>
     </div>
-  </nav>
+
+    <!-- Toggler Button -->
+    <button class="navbar-toggler text-white border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible Navbar Links -->
+    <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">News</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Live cameras</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Photos</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 <div class="bg-image "></div>
 <div>
   <div class="container mt-4">
