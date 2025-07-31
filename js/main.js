@@ -36,7 +36,11 @@ function displayForecast(days, cityName) {
         <p>${cityName}</p>
         <div class="temp">${day.day.avgtemp_c}°C</div>
         <p class=" text-white">${day.day.mintemp_c}°C - ${day.day.maxtemp_c}°C</p>
-        <p class="text-info">${day.day.condition.text}</p>
+        <p class="text-info">
+  <img class="icon" src="https:${day.day.condition.icon}" alt="${day.day.condition.text}" />
+  ${day.day.condition.text}
+</p>
+
         </div>
     </div>
     `;
